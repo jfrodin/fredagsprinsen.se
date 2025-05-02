@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fredagsprinsen – Ölprovning med stil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <img src="assets/images/belgisk_ol.jpg" alt="Belgisk öl" class="hero-image" />
+    <h1>Fredagsprinsen</h1>
+    <p>Unika ölprovningar direkt till din dörr – med kunskap, humor och smak!</p>
+  </header>
+
+  <nav>
+    <div class="nav-wrapper">
+      <div class="nav-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+          <a href="#om">Om mig</a>
+          <a href="#provningar">Provningar</a>
+          <a href="#faq">FAQ</a>
+          <a href="#kontakt">Boka</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="om" class="section">
+      <h2>Fredagsprinsen?</h2>
+      <img src="assets/images/joakim_profilbild.jpg" alt="Joakim Frödin" class="profile-image" />
+      <p>Jag heter egentligen Joakim och jag gillar belgisk öl, festliga fredagskvällar och att få folk att säga wow. Med min ölprovningstjänst kommer jag hem till er med kunskap, historier och självklart: riktigt god öl.</p>
+    </section>
+
+    <section id="provningar" class="section">
+      <h2>Provningar & Upplägg</h2>
+      <p>Jag erbjuder flera olika upplägg – allt från introduktionsprovningar till temakvällar för inbitna ölentusiaster. Här är några exempel:</p>
+      <ul>
+        <li><strong>Belgisk afton</strong></li>
+        <li><strong>IPA-bonanza:</strong> En resa i humlens värld</li>
+        <li><strong>Jämtland:</strong> Handplockade lokala favoriter</li>
+        <li><strong>Suröl:</strong> För dig som gillar det syrligt och utmanande</li>
+        <li><strong>Engelska öl:</strong> Bitters, milds och ales</li>
+        <li><strong>Stouts & Porters:</strong> Mörk magi i glaset</li>
+        <li><strong>Mängdprovning för nybörjare:</strong> En guidning genom olika ölstilar</li>
+        <li><strong>Skräddarsytt:</strong> Jag bygger provningen efter era intressen och förkunskaper</li>
+      </ul>
+
+      <h3>Pris & Innehåll</h3>
+      <p>En standardprovning kostar <strong>500 kr/person</strong> och då ingår allt:</p>
+      <ul>
+        <li>Jag kommer till er med alla glas, öl och material som behövs</li>
+        <li>5 olika öl – en perfekt balans för att uppleva bredden</li>
+        <li>Flexibilitet att anpassa innehållet efter önskemål</li>
+      </ul>
+      <p>Observera att 500 kr/person är <strong>lägsta pris</strong> även om man väljer färre öl. 5 öl är min rekommenderade minimi för att provningen ska kännas komplett.</p>
+    </section>
+
+    <section id="faq" class="section">
+      <h2>Vanliga frågor</h2>
+      <ul>
+        <li>Behöver vi ha glas hemma? – Jag tar med allt ni behöver.</li>
+        <li>Ingår tilltugg? – I vissa paket ja, annars går det att lägga till.</li>
+        <li>Måste alla dricka alkohol? – Nej, jag erbjuder även alkoholfritt alternativ.</li>
+        <li>Kan man boka för företag? – Absolut! Jag anpassar efter era behov.</li>
+      </ul>
+    </section>
+
+    <section id="kontakt" class="section">
+      <h2>Boka en provning</h2>
+      <p>Fyll i formuläret nedan så återkommer jag så snart jag kan.</p>
+      <form action="https://formspree.io/f/xvgakznw" method="POST">
+        <label for="email">Din e-post:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Ditt meddelande:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Skicka</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fredagsprinsen. Fredagskultur med Fredagsprinsen. 🥂</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
