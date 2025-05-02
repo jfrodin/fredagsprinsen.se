@@ -175,6 +175,12 @@ footer {
   border: 4px solid var(--sand);
 }
 
+#om p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
 form {
   margin-top: 25px;
 }
@@ -270,3 +276,46 @@ form button[type="submit"]:hover {
     color: #463523;
     font-size: 1rem;
   }
+
+  /* Kontaktformulär med temaval */
+.kontakt-form input,
+.kontakt-form textarea,
+.kontakt-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cbbba3;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fdfbf8;
+  transition: border-color 0.2s ease;
+}
+
+.kontakt-form input:invalid,
+.kontakt-form textarea:invalid,
+.kontakt-form select:invalid {
+  border-color: #d66;
+}
+
+.kontakt-form input:focus,
+.kontakt-form textarea:focus,
+.kontakt-form select:focus {
+  border-color: #7a4b31;
+  outline: none;
+}
+
+footer {
+    background-color: #3a1e09;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    padding: 40px 20px 60px; /* extra luft längst ned */
+    font-size: 0.95rem;
+    border-top: none;
+  }
+  
+  footer p {
+    margin: 0;
+    line-height: 1.6;
+  }
+  
