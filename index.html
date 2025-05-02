@@ -85,12 +85,14 @@
       <h2>Boka en provning</h2>
       <p>Fyll i formuläret nedan så återkommer jag så snart jag kan.</p>
       <form action="https://formspree.io/f/xvgakznw" method="POST">
+        <input type="hidden" name="_redirect" value="tack.html" />
+      
         <label for="email">Din e-post:</label>
         <input type="email" id="email" name="email" required />
-
+      
         <label for="message">Ditt meddelande:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
-
+      
         <button type="submit">Skicka</button>
       </form>
     </section>

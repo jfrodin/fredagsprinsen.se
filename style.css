@@ -223,3 +223,23 @@ form button[type="submit"]:hover {
 .gallery-grid img:hover {
   transform: scale(1.03);
 }
+
+.return-button {
+    display: inline-block;
+    background-color: #5b3622;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .return-button:hover {
+    background-color: #7a4b31;
+    transform: translateY(-2px);
+  }
+  
