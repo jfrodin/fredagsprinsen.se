@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lämna betyg – Fredagsprinsen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="section" style="background-color: var(--sektion3);">
+      <h2>Tack för att du deltog!</h2>
+      <p>Jag vore supertacksam om du vill lämna ett kort betyg på upplevelsen:</p>
+
+      <form action="https://formspree.io/f/xvgakznw" method="POST">
+        <label for="code">Din unika kod (valfritt):</label>
+        <input type="text" id="code" name="code" placeholder="FRP-XXXX" />
+
+        <label for="rating">Hur nöjd var du? (1 = inte alls, 5 = otroligt nöjd)</label>
+        <div style="display: flex; gap: 10px; margin: 10px 0;">
+          <label><input type="radio" name="rating" value="1" required /> 1</label>
+          <label><input type="radio" name="rating" value="2" /> 2</label>
+          <label><input type="radio" name="rating" value="3" /> 3</label>
+          <label><input type="radio" name="rating" value="4" /> 4</label>
+          <label><input type="radio" name="rating" value="5" /> 5</label>
+        </div>
+
+        <label for="feedback">Har du något att säga?</label>
+        <textarea id="feedback" name="feedback" rows="5" placeholder="Ex. Vad var bäst? Något att förbättra?"></textarea>
+
+        <button type="submit">Skicka in</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
