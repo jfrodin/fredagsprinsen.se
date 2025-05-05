@@ -338,7 +338,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     font-size: 2rem;
-    color: #fff3dc;
+    color: #000000;
     animation: bounce 2s infinite;
     z-index: 2;
     opacity: 0.8;
